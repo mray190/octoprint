@@ -1,0 +1,18 @@
+{
+  "name": "Octoprint google home",
+  "description": "GHome Octoprint",
+  "version": "0.0.1",
+  "license": "Apache Version 2.0",
+  "author": "mray190",
+  "engines": {
+    "node": "8"
+  },
+  "scripts": {
+    "start": "node webhook.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
